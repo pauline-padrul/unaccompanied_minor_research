@@ -5,6 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
+origin_data/
 
 # Distribution / packaging
 .Python
