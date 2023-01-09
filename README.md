@@ -1,4 +1,4 @@
-# unaccompanied_minor_research
+# Unaccompanied Minor Research
 
 ## Python settup...
 
@@ -6,15 +6,15 @@
 
 **(base)**
 ```bash
-conda create -n eco_portfolio python=3.7 anaconda -y
-conda activate eco_portfolio
+conda create -n umr python=3.7 anaconda -y
+conda activate umr
 
 ```
 2. Install the required packages (make sure `eco_portfolio` is activated first)
 
-**(eco_portfolio)**
+**(umr)**
 ```bash
-python -m ipykernel install --user --name eco_portfolio
+python -m ipykernel install --user --name umr
 conda install -c conda-forge nodejs -y
 pip install python-dotenv
 conda install -c pyviz hvplot -y
@@ -22,10 +22,10 @@ conda install -c pyviz hvplot -y
 ```
 3. Clone this repository, then clone and run the Jupyter notebook.
 
-**(eco_portfolio)**
+**(umr)**
 ```bash
-git clone git@github.com:harryo1968/ecocrypto_portfolio_analysis.git
-cd eco_portfolio/
+git clone git@github.com:pauline-padrul/unaccompanied_minor_research.git
+cd umr/
 jupyter lab
 
 ```
