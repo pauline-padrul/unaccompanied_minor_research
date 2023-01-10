@@ -10,7 +10,7 @@ conda create -n umr python=3.9 anaconda -y
 conda activate umr
 
 ```
-2. Install the required packages (make sure `eco_portfolio` is activated first)
+2. Install the required packages (make sure `umr` is activated first)
 
 **(umr)**
 ```bash
