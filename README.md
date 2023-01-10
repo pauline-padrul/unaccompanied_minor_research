@@ -6,7 +6,7 @@
 
 **(base)**
 ```bash
-conda create -n umr python=3.7 anaconda -y
+conda create -n umr python=3.9 anaconda -y
 conda activate umr
 
 ```
